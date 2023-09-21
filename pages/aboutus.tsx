@@ -62,7 +62,7 @@ export default function Home() {
                 groundbreaking products, one of which is a generative AI 2-way
                 voice chatbot aimed at amplifying both external and internal
                 chatbot interactions. Furthermore, the company will champion the
-                pioneering concept of "Automation as a Service," revolutionizing
+                pioneering concept of `Automation as a Service,` revolutionizing
                 how businesses approach and implement automation. In the fluid
                 landscape of today and tomorrow, Fuzion Flow Digital Automation
                 Company stands as a beacon, illuminating the path of innovation,

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";;
 
 const TermsOfUse = () => {
   return (
@@ -18,13 +18,13 @@ const TermsOfUse = () => {
         <section>
           <h2 className="text-xl font-medium mb-4">Definitions</h2>
           <p>
-            "The Company" refers to [Your Company Name].
+            &rsquo;The Company&rsquo; refers to [Your Company Name].
           </p>
           <p>
-            "User" refers to anyone accessing and using our website.
+            &rsquo;User&rsquo; refers to anyone accessing and using our website.
           </p>
           <p>
-            "Services" refers to any digital automation consulting services provided by the Company.
+            &rsquo;Services&rsquo; refers to any digital automation consulting services provided by the Company.
           </p>
         </section>
 
@@ -54,7 +54,7 @@ const TermsOfUse = () => {
             All content, including but not limited to text, graphics, logos, and software, is the property of the Company and is protected by copyright laws.
           </p>
           <p>
-            Reproduction is prohibited without the Company's written consent.
+            Reproduction is prohibited without the Company&rsquo;s written consent.
           </p>
         </section>
 
@@ -82,7 +82,7 @@ const TermsOfUse = () => {
         <section>
           <h2 className="text-xl font-medium mb-4">Governing Law</h2>
           <p>
-            These terms are governed by and construed in accordance with [Your Country's Law]. Any disputes will be subject to the exclusive jurisdiction of [Your Country's Courts].
+            These terms are governed by and construed in accordance with [Your Country&rsquo;s Law]. Any disputes will be subject to the exclusive jurisdiction of [Your Country&rsquo;s Courts].
           </p>
         </section>
 

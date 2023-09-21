@@ -19,14 +19,14 @@ export default function Home() {
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center pb-16">
             <div className="w-full">
-              <div className="text-2xl md:text-4xl 2xl:text-4xl leading-[1.5] text-center">
-                In today's rapidly evolving digital landscape, staying ahead is
-                not just an option—it's a necessity. At Fuzion Flow Digital
-                Automation Solutions, we're pioneering the next wave of
+              <p className="text-2xl md:text-4xl 2xl:text-4xl leading-[1.5] text-center">
+                In today&rsquo;s rapidly evolving digital landscape, staying ahead is
+                not just an option—it&rsquo;s a necessity. At Fuzion Flow Digital
+                Automation Solutions, we&rsquo;re pioneering the next wave of
                 generative AI and robotic process automation solutions designed
                 to transform your business operations and drive unparalleled
                 efficiency.
-              </div>
+              </p>
             </div>
           </div>
         </div>
@@ -38,9 +38,9 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-center pb-16">
             <div className="w-full">
               <div className="text-xl md:text-2xl 2xl:text-4xl font-normal text-center">
-                Don't get left behind in the digital race. Experience the power
+                Don&rsquo;t get left behind in the digital race. Experience the power
                 of generative AI and robotic process automation with Fuzion
-                Flow. Let's co-create the future, one automated process at a
+                Flow. Let&rsquo;s co-create the future, one automated process at a
                 time.
               </div>
             </div>

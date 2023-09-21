@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";;
 
 const PrivacyPolicy = () => {
   return (
@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
         <section>
           <h2 className="text-xl font-medium mb-4">1. Introduction</h2>
           <p>
-            Welcome to [Your Company Name]'s Privacy Policy. Your privacy is of utmost importance to us. 
+            Welcome to [Your Company Name]&rsquo;s Privacy Policy. Your privacy is of utmost importance to us. 
             This policy outlines how we collect, use, and protect your personal information.
           </p>
         </section>

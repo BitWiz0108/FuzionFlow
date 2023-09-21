@@ -107,12 +107,12 @@ export default function Home() {
             <div className="w-full">
               <div className="text-xl md:text-2xl font-normal text-center">
                 Dive deep into the world of AI with our specialized audit
-                services. Our experts assess your chatbot's efficiency,
-                training, and integration, ensuring they're tailored perfectly
+                services. Our experts assess your chatbot&rsquo;s efficiency,
+                training, and integration, ensuring they&rsquo;re tailored perfectly
                 for your audience. On the RPA front, we pinpoint process
                 inefficiencies, evaluate implementation strategies, and ensure
                 smooth bot operations. From chatbot responsiveness to robotic
-                task automation, we're here to optimize, implement, and support
+                task automation, we&rsquo;re here to optimize, implement, and support
                 your tech endeavors, driving efficiency and adaptability in your
                 business.
               </div>

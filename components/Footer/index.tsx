@@ -1,5 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 function Footer() {
   const router = useRouter();
@@ -15,36 +16,36 @@ function Footer() {
           <h2 className="text-lg font-semibold mb-4">Quick Links</h2>
           <ul className="space-y-2">
             <li>
-              <a
+              <Link
                 href="/termsofuse"
                 className=" text-white hover:text-blue-500 transition duration-300"
               >
                 Terms of Use
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/privacypolicy"
                 className=" text-white hover:text-blue-500 transition duration-300"
               >
                 Privacy Policy
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/solutions"
                 className=" text-white hover:text-blue-500 transition duration-300"
               >
                 Solutions
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/blog"
                 className=" text-white hover:text-blue-500 transition duration-300"
               >
                 Blog
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -54,28 +55,28 @@ function Footer() {
           <h2 className="text-lg font-semibold mb-4">About Us</h2>
           <ul className="space-y-2">
             <li>
-              <a
+              <Link
                 href="aboutus"
                 className=" text-white hover:text-blue-500 transition duration-300"
               >
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="bookacall"
                 className=" text-white hover:text-blue-500 transition duration-300"
               >
                 Book a Call
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/events"
                 className=" text-white hover:text-blue-500 transition duration-300"
               >
                 Events
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

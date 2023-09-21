@@ -77,7 +77,7 @@ const AboutFaq: React.FC = ({}) => {
           ))}
         </div>
         <div className="w-full text-center text-4xl px-2 sm:px-5 xl:px-10 2xl:px-12 pb-12 text-white pt-16">
-          Choose Fuzion Flow, and let's shape the future together
+          Choose Fuzion Flow, and let&rsquo;s shape the future together
         </div>
       </div>
     </section>
