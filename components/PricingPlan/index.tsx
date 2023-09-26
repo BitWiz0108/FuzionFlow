@@ -56,7 +56,7 @@ const PricingPlan = ({
       </ul>
       
       <div className="text-md mb-4 font-medium">Delivery Time: {deliverTime} days</div>
-      <button className="bg-blue-700 text-green py-2 px-6 rounded-lg text-lg border-2 border-blue-700 hover:bg-white hover:text-blue-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+      <button className="bg-blue-700 py-2 px-6 rounded-lg text-lg border-2 border-blue-700 hover:bg-white hover:text-blue-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
         Subscribe Now
       </button>
     </div>

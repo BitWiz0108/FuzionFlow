@@ -36,10 +36,20 @@ export const theme = {
       "pos-0": "0% 0%",
       "pos-100": "100% 100%",
     },
+    animation: {
+      wave: "wave 1s infinite alternate",
+    },
+    keyframes: {
+      wave: {
+        '0%, 100%': { transform: 'rotate(0deg)' },
+        '25%': { transform: 'rotate(-5deg)' },
+        '75%': { transform: 'rotate(5deg)' },
+      },
+    },
   },
   fontFamily: {
-    sans: ['Roboto', 'sans-serif'],
-    thin: ['Roboto-Thin', 'sans-serif'],
+    sans: ["Roboto", "sans-serif"],
+    thin: ["Roboto-Thin", "sans-serif"],
   },
 };
 export const plugins = [];

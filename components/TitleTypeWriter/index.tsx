@@ -6,7 +6,7 @@ interface TypewriterEffectProps {
   speed: number;
 }
 
-const TypewriterEffect: React.FC<TypewriterEffectProps> = ({ text, speed }) => {
+const TitleTypewriterEffect: React.FC<TypewriterEffectProps> = ({ text, speed }) => {
   const [displayText, setDisplayText] = useState('');
   const [index, setIndex] = useState(0);
 
@@ -26,12 +26,12 @@ const TypewriterEffect: React.FC<TypewriterEffectProps> = ({ text, speed }) => {
   }, [text, speed, index]);
 
   return (
-    <div className="h-screen flex items-center justify-center mx-auto px-4 lg:px-16">
-      <div className="w-full text-center font-extrabold leading-snug text-4xl xs:text-5xl sm:text-6xl lg:text-6xl xl:text-7xl px-2 sm:px-5 xl:px-10 2xl:px-12">
+    <div className=" h-48 flex items-center justify-center mx-auto px-4 lg:px-16 pb-2">
+      <div className="w-full text-center font-extrabold leading-snug text-2xl sm:text-3xl lg:text-5xl xl:text-6xl px-2 sm:px-5 xl:px-10 2xl:px-12">
         {displayText}
       </div>
     </div>
   );
 };
 
-export default TypewriterEffect;
+export default TitleTypewriterEffect;

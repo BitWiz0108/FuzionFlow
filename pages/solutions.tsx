@@ -11,11 +11,10 @@ import FAQ from "@/components/FAQ";
 export default function Home() {
   return (
     <Layout>
-      <div>
-        <div className="h-screen flex items-center justify-center text-3xl xs:text-4xl sm:text-5xl xl:text-6xl 2xl:text-7xl mx-auto">
-          <div className="w-full text-center font-[900] leading-[1] px-2 sm:px-5 xl:px-10 2xl:px-12">
-            Our solutions will harness the power of AI and automation to
-            increase productivity, increase sales and enhance customer
+      <div className="w-full">
+        <div className="h-screen w-full flex items-center justify-center text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl px-2">
+          <div className="w-full text-center font-[900] leading-[1]">
+            Our solutions will harness the power of artificial intelligence  and automation to increase productivity, increase sales and enhance customer
             satisfaction for your business.
           </div>
         </div>
@@ -118,7 +117,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-center pb-16">
             <div className="w-full">
               <div className="text-xl md:text-2xl font-normal text-center">
-                Dive deep into the world of AI with our specialized audit
+                Dive deep into the world of artificial intelligence with our specialized audit
                 services. Our experts assess your chatbot&rsquo;s efficiency,
                 training, and integration, ensuring they&rsquo;re tailored perfectly
                 for your audience. On the RPA front, we pinpoint process
@@ -150,10 +149,10 @@ export default function Home() {
               appCount={1}
               autoCount="1"
               content="Documentation and videos"
-              pricing="500"
+              pricing="750"
               description="Document and videos"
               deliverTime={5}
-              originalPricing={1000}
+              originalPricing={1500}
             />
             <PricingPlan
               type="Pro Bot Powerhouse"
@@ -161,10 +160,10 @@ export default function Home() {
               appCount={2}
               autoCount="1-3"
               content="Free funnel template"
-              pricing="1250"
+              pricing="1500"
               description="Free funnel template"
               deliverTime={15}
-              originalPricing={2500}
+              originalPricing={3000}
             />
             <PricingPlan
               type="Elite Bot Powerhouse"
@@ -187,11 +186,11 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-center">
             <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
               <div className="text-2xl md:text-4xl lg:text-5xl font-extrabold mb-4 text-center">
-                Create{" "}
+                Discover
               </div>
               <p className="text-center text-xl lg:text-2xl">
                 We initiate by understanding your unique business needs. Our
-                team collaborates with you to conceptualize the ideal AI and
+                team collaborates with you to conceptualize the ideal artificial intelligence and
                 robotic automation solution tailored for your operations.
               </p>
             </div>
