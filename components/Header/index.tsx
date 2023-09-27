@@ -172,6 +172,14 @@ function Header() {
             >
               Events
             </div>
+            <div
+              className="mb-4 px-4 py-2 text-md lg:text-lg font-extrabold cursor-pointer"
+              onClick={() => {
+                goToLink("/faq");
+              }}
+            >
+              FAQ
+            </div>
           </div>
         </div>
       )}
