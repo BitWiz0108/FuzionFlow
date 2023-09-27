@@ -45,7 +45,7 @@ const CookiesPolicy = () => {
           <ul className="list-disc pl-5">
             <li>
               Authentication: We use cookies to recognize you when you visit our
-              website, ensuring you don't have to log in every time.
+              website, ensuring you don&apos;t have to log in every time.
             </li>
             <li>
               Security: Cookies play a role in security by protecting user data

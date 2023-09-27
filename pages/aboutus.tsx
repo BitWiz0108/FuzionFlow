@@ -11,10 +11,10 @@ export default function Home() {
       <div className="w-full flex flex-col items-center justify-center">
         <div className="h-screen w-full 2xl:w-4/5 flex items-center justify-center text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl px-2">
           <div className="w-full text-center font-[900] leading-[1]">
-            Every triumph has a tale behind it. Over the years, we've been
+            Every triumph has a tale behind it. Over the years, we&apos;ve been
             privileged to be a part of countless success stories from small to
             mid-sized businesses. Their journeys have intertwined with ours, and
-            now, we're eager to unveil our own story to you.
+            now, we&apos;re eager to unveil our own story to you.
           </div>
         </div>
 
@@ -92,8 +92,8 @@ export default function Home() {
           <WaveText label="Why Choose Fuzion Flow?" />
           <div className="w-full">
             <p className="text-center text-xl lg:text-3xl 2xl:text-4xl xl:leading-10">
-              At Fuzion Flow Digital Automation Company, we're not just about
-              automation; we're about transformation. Here's why we stand out:
+              At Fuzion Flow Digital Automation Company, we&apos;re not just about
+              automation; we&apos;re about transformation. Here&apos;s why we stand out:
             </p>
           </div>
 
