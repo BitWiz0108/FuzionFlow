@@ -38,8 +38,8 @@ export default function Home() {
             speed={100}
           />
         </div>
-        <div className="h-screen w-full 2xl:w-4/5 flex flex-col items-center justify-center px-4 lg:px-16 lg:gap-y-16">
-          <div className="w-full text-center font-[900] text-4xl xs:text-5xl sm:text-6xl lg:text-7xl xl:text-7xl 2xl:text-8xl leading-[0.9] px-2 sm:px-5 xl:px-10 2xl:px-12 pb-24 xl:pb-12">
+        <div className="h-screen w-full 2xl:w-4/5 flex flex-col items-center justify-center px-4 lg:px-16 lg:gap-y-16 pb-10 lg:pb-4">
+          <div className="w-full text-center font-[900] text-[42px] xs:text-5xl sm:text-6xl lg:text-7xl xl:text-7xl 2xl:text-8xl leading-[0.9] px-2 sm:px-5 xl:px-10 2xl:px-12 pb-10 sm:pb-16 lg:pb-24 xl:pb-12">
             Generative AI Chatbots
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center">
@@ -59,7 +59,7 @@ export default function Home() {
                 State-of-the-art AI models for continuous chatbot evolution
               </p>
             </div>
-            <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-4">
               <div className="text-4xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold mb-4 text-center">
                 Integration Expertise
               </div>
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
         </div>
         <div className="h-screen w-full 2xl:w-4/5 flex flex-col items-center justify-center px-4 lg:px-16 lg:gap-y-16">
-          <div className="w-full text-center font-[900] text-4xl xs:text-5xl sm:text-6xl lg:text-7xl xl:text-7xl 2xl:text-8xl leading-[0.9] px-2 sm:px-5 xl:px-10 2xl:px-12 pb-24 xl:pb-12">
+          <div className="w-full text-center font-[900] text-4xl xs:text-5xl sm:text-6xl lg:text-7xl xl:text-7xl 2xl:text-8xl leading-[0.9] px-2 sm:px-5 xl:px-10 2xl:px-12 pb-10 lg:pb-24 xl:pb-12">
             Robotic Process Automation (RPA)
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center">
@@ -90,7 +90,7 @@ export default function Home() {
                 Comprehensive services from business analysis to bot deployment
               </p>
             </div>
-            <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-4">
               <div className="text-4xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold mb-4 text-center">
                 Maintenance & Support
               </div>

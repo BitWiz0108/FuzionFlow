@@ -27,7 +27,7 @@ const TypewriterEffect: React.FC<TypewriterEffectProps> = ({ text, speed }) => {
 
   return (
     <div className="h-screen flex items-center justify-center mx-auto px-4 lg:px-16">
-      <div className="w-full text-center font-extrabold leading-snug text-4xl xs:text-5xl sm:text-6xl lg:text-6xl xl:text-7xl px-2 sm:px-5 xl:px-10 2xl:px-12">
+      <div className="w-full text-center font-extrabold leading-snug text-4xl xs:text-5xl sm:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl px-2 sm:px-5 xl:px-10 2xl:px-12">
         {displayText}
       </div>
     </div>

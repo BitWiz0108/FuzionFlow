@@ -1,15 +1,17 @@
 import React from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+
 import FaceBook from "../Icons/Facebook";
 import YouTube from "../Icons/YouTube";
 import Instagram from "../Icons/Instagram";
 import Twitter from "../Icons/Twitter";
 import Linkedin from "../Icons/Linkedin";
+import GoogleMap from "../GoogleMap";
 
 function Footer() {
   const router = useRouter();
-
+  
   const goToLink = (link: string) => {
     router.push(link);
   };
@@ -107,8 +109,8 @@ function Footer() {
           </address>
         </div>
       </div>
-
       {/* Divider */}
+      <GoogleMap></GoogleMap>
       <hr className="border-t border-gray-700 my-4" />
       {/* Copyright */}
       <div className="flex items-center justify-center space-x-4 my-5">
